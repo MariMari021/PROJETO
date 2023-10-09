@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'raleway';
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #110B31;
+}
+
+header {
+    background-color: #fff;
+    height: 49px;
+}
+
+.dividir {
+    padding: 10px 0px;
+    margin: 0px 124px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'raleway';
+    font-weight: 500;
+    font-size: 21px;
+    color: #5c5a5a;
+}
+
+.login-img {
+    width: 27px;
+}
+
+.img-principal {
+    width: 350px;
+    margin-top: 10%;
+}
+
+.login {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5.89%;
+}
+
+.form {
+    margin-top: 8%;
+}
+
+.titulo {
+    font-family: 'raleway';
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.subtitulo {
+    color: #fff;
+    font-family: 'raleway';
+    font-size: 27px;
+    font-weight: 400;
+}
+
+span {
+    color: #05F2C7;
+}
+
+.login-form {
+
+    display: grid;
+    justify-items: center;
+
+}
+
+input {
+    padding: 0px 35px;
+    margin-top: 28px;
+    width: 316px;
+    height: 42px;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 28px;
+    width: 168px;
+    height: 36px;
+    border-radius: 23px;
+    background-color: #05F2C7;
+    color: #110b31;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #AE9BF2;
+    color: white;
+}
+
+.crie {
+    padding: 7px 16px;
+    border-radius: 18px;
+    background-color: aliceblue;
+    text-decoration: none;
+    background-color: #05F2C7;
+    color: #110b31;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.crie:hover {
+    background-color: #AE9BF2;
+    color: white;
+
+}
+
+.mensagem {
+    color: white;
+}
+
+footer {
+    display: grid;
+    height: 53px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+
+}
