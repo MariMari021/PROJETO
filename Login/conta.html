@@ -6,9 +6,19 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="bodyDois">
+    <header>
+        <div class="dividir">
+            <p>ToSave</p>
+            <a href="index.html"><img class="login-img" src="img/login.png" alt=""></a>
+        </div>
+        
+    </header>
+    <main>
     <div class="criarConta">
         <div class="formulario">
+            <h2 class="titulo">Olá,</h2>
+            <p class="subtitulo">Crie<span> sua conta!</span></p>
             <form class="conta-form">
                 <input id="nome" type="text" placeholder="Nome" required>
                 <input type="email" placeholder="Email" required>
@@ -18,7 +28,12 @@
              <button id="cadastro"  type="submit"><a href="index.html">Entrar</a></button>
             </form>
         </div>
+        <img class="foto" src="img/foto.png" alt="">
     </div>
+</main>
+    <footer>
+        <p>@Copyright of ToSave</p>
+    </footer>
 
     <script src="main.js"></script>
 </body>

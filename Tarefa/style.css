@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'raleway';
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+
+
+body {
+    background-color: #110B31;
+}
+
+header {
+    background-color: #fff;
+    height: 49px;
+}
+
+.dividir {
+    padding: 10px 0px;
+    margin: 0px 124px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'raleway';
+    font-weight: 500;
+    font-size: 21px;
+    color: #5c5a5a;
+}
+
+footer {
+    display: grid;
+    height: 53px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+input {
+    width: 463px;
+    padding: 12px 50px;
+    border-radius: 12px;
+    font-family: 'raleway';
+}
+
+.adicionar {
+    padding: 9px 28px;
+    box-shadow: 3px 3px white;
+    border: 1px gray solid;
+    cursor: pointer;
+    border-radius: 23px;
+    background-color: #05F2C7;
+    color: #110b31;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #AE9BF2;
+    color: white;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 286px 372px;
+}

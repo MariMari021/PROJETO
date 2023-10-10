@@ -129,3 +129,27 @@ footer {
     text-align: center;
 
 }
+
+#bodyDois{
+    background-color: rgb(30, 24, 66);
+}
+
+.criarConta{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 114px 0px;
+}
+
+.conta-form{
+    display: grid;
+    justify-items: center;
+}
+
+.foto{
+    width: 550px;
+}
+
+a{
+    text-decoration: none;
+}
