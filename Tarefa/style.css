@@ -20,6 +20,10 @@ header {
     height: 49px;
 }
 
+.login-img {
+    width: 27px;
+}
+
 .dividir {
     padding: 10px 0px;
     margin: 0px 124px;
@@ -37,7 +41,6 @@ footer {
     background-color: white;
     align-items: center;
     text-align: center;
-
 }
 
 
@@ -70,5 +73,29 @@ form{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 286px 372px;
+    margin: 268.8px 372px 0px;
 }
+
+
+ul{
+    min-height: 186.5px;
+    width: 643px;
+    margin: 75px 443px;
+}
+
+li{
+    padding: 0px 72px;
+    height: 45px;
+    background-color: #fff;
+    box-shadow: 5px 5px #05F2C7;
+    margin: 33px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    min-width: 481px;
+    min-height: 51px;
+}
+
+
+
